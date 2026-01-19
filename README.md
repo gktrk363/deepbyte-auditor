@@ -1,9 +1,9 @@
 # 🔍 DeepByte Auditor // Professional Project Auditor
 
-**DeepByte Auditor**, Unreal Engine 5 ekosistemindeki 5.72 GB+ ölçekli projeler için geliştirilmiş, disk alanını sömüren gizli dosyaları (Git history, binary cache vb.) anında raporlayan profesyonel bir denetleme aracıdır.
+**DeepByte Auditor**, Unreal Engine 5 ekosistemindeki büyük ölçekli projeler için geliştirilmiş, disk alanını sömüren gizli dosyaları (Git history, binary cache vb.) anında raporlayan profesyonel bir denetleme aracıdır.
 
 ## 🚀 Öne Çıkan Özellikler
-- **Multi-threaded Tarama:** Büyük projelerde (Zil Vakti vb.) arayüz donmadan hızlı analiz.
+- **Multi-threaded Tarama:** Büyük projelerde arayüz donmadan hızlı analiz.
 - **Akıllı Dosya Tanımlama:** Uzantısız binary verileri ve Git geçmişini otomatik yakalama.
 - **Crimson Dashboard:** Kan kırmızısı temalı, hiyerarşik dağılım ve uzantı ağırlık grafikleri.
 - **Zero-Hover UI:** Tamamen statik, performans odaklı ve profesyonel arayüz tasarımı.
