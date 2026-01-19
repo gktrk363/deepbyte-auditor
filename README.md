@@ -1,61 +1,62 @@
-# 🔍 DeepByte Auditor 
+# 🔍 DeepByte Auditor
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-red?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-black?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/UI-Custom_Crimson-crimson?style=for-the-badge" />
+  <img src="https://img.shields.io/github/v/release/gktrk363/deepbyte-auditor?style=for-the-badge&color=red" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
-### **Enterprise-Grade Project Analysis & Disk Optimization Suite**
-### **Kurumsal Seviye Proje Analiz ve Disk Optimizasyon Paketi**
+### **Advanced Project Analytics & Disk Optimization Suite**
+### **Gelişmiş Proje Analiz ve Disk Optimizasyon Paketi**
 
-**DeepByte Auditor**, özellikle oyun geliştirme ve büyük ölçekli yazılım ekosistemleri için tasarlanmış, yüksek performanslı bir disk denetleme ve veri görselleştirme aracıdır. Karmaşık dizin yapılarındaki gizli şişkinlikleri (untracked binary data, cache artifacts, git history) saniyeler içinde tespit ederek geliştirme sürecini optimize eder.
+**DeepByte Auditor**, özellikle büyük ölçekli yazılım ekosistemleri ve oyun geliştirme süreçleri için tasarlanmış, yüksek performanslı bir veri denetleme ve görselleştirme aracıdır. Gereksiz proje şişkinliklerini (binary artifacts, cache files, untracked logs) saniyeler içinde analiz ederek geliştirme verimliliğini artırır.
 
 ---
 
 ## 📸 Preview | Önizleme
 
 <p align="center">
-  <img src="DeepByteAuditor.png" width="800" alt="DeepByte Auditor Dashboard" />
+  <img src="DeepByteAuditor.png" width="850" alt="DeepByte Auditor Dashboard" />
   <br>
-  <i>Crimson Dashboard Interface featuring real-time data visualization.</i>
+  <i>Crimson Dashboard: Real-time project indexing and hierarchical distribution analysis.</i>
 </p>
 
 ---
 
-## 🚀 Key Features | Öne Çıkan Özellikler
+## 🚀 Core Capabilities | Temel Yetenekler
 
 | Feature | TR Açıklama | EN Description |
 | :--- | :--- | :--- |
-| **Async Engine** | Asenkron mimari ile donmayan hızlı tarama. | Non-blocking concurrent processing architecture. |
-| **Heuristic Detection** | Uzantısız dosyaları akıllı algılama. | Smart heuristic identification for binary data. |
-| **Crimson UI** | Performans odaklı statik arayüz. | High-stability, zero-hover professional aesthetic. |
-| **Visual Analytics** | Dinamik grafik paneli desteği. | Integrated data visualization via Matplotlib. |
+| **Concurrent Indexing** | Çok izlekli (multi-threaded) tarama motoru ile sıfır gecikme. | Non-blocking data indexing via asynchronous thread architecture. |
+| **Heuristic Identification** | Uzantısız veya gizli dosyaları akıllı algoritmalarla tanımlama. | Identifies untracked binary data using smart heuristic classification. |
+| **Analytical Visuals** | Matplotlib tabanlı derinlemesine veri görselleştirme paneli. | High-fidelity data visualization and distribution charts. |
+| **Optimized UX** | Düşük kaynak tüketimli, statik ve profesyonel "Crimson" arayüzü. | Performance-centric, zero-hover static production UI. |
 
 ---
 
-## 🛠️ Technical Architecture | Teknik Mimari
+## ⚙️ Technical Workflow | Çalışma Prensibi
 
-* **Logic:** Powered by **Pandas** for high-speed data frame manipulation and file system indexing.
-* **Performance:** Implements **Threading** for asynchronous I/O operations, ensuring UI stability during heavy audits.
-* **Graphics:** Utilizes **Matplotlib** for vector-grade hierarchical distribution charts.
-* **Environment:** Built with a custom-themed **Tkinter** engine optimized for modern dark-mode production environments.
-
----
-
-## 📥 Installation | Kurulum
-
-**TR:** Uygulamayı doğrudan kullanmak için [Releases](https://github.com/gktrk363/deepbyte-auditor/releases) sayfasından en güncel `.exe` dosyasını indirin. Hiçbir kurulum veya Python bağımlılığı gerektirmez.
-
-**EN:** For standalone usage, download the latest stable executable (`.exe`) from the [Releases](https://github.com/gktrk363/deepbyte-auditor/releases) section. No Python environment or dependencies are required.
+1. **Scan Phase:** Uygulama, belirtilen kök dizini asenkron olarak tarayarak dosya meta verilerini toplar.
+2. **Analysis Phase:** Toplanan veriler **Pandas** dataframe yapısına aktarılır ve boyut/tür analizi yapılır.
+3. **Visualization:** Analiz sonuçları **Matplotlib** üzerinden hiyerarşik ve dairesel grafiklere dönüştürülür.
+4. **Reporting:** Kullanıcıya en çok yer kaplayan dizinler ve dosya türleri anlık olarak raporlanır.
 
 ---
 
-## 🤝 Contribution | Katkıda Bulunma
+## 📥 Deployment | Kurulum ve Kullanım
 
-**TR:** Açık kaynak katkılarına açıktır. Lütfen büyük değişiklikler yapmadan önce bir konu (issue) açarak tartışın.
+**TR:** Hiçbir bağımlılık yüklemeden kullanmak için [Releases](https://github.com/gktrk363/deepbyte-auditor/releases) sayfasından `.exe` sürümünü indirin ve çalıştırın.
 
-**EN:** Open-source contributions are welcome. For major changes, please open an issue first to discuss what you would like to change.
+**EN:** For standalone production usage, download the latest `.exe` from the [Releases](https://github.com/gktrk363/deepbyte-auditor/releases) section. No Python environment required.
 
 ---
-Developed and Maintained by **gktrk363**
+
+## 🛡️ License | Lisans
+
+This project is licensed under the **MIT License**.
+
+---
+<p align="right">
+  Developed by <b>gktrk363</b>
+</p>
